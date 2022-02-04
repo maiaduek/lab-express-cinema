@@ -6,3 +6,88 @@ body {
 a {
   color: #00B7FF;
 }
+
+.showtimes {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-movie-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.wording {
+  margin-left: 20px;
+}
+
+.time {
+  margin-left: 5px;;
+}
+
+.back {
+  padding: 10px;
+}
+
+.home-check-movies {
+  position: relative;
+  margin-top: 80px;
+  margin-left: 58%;
+  background-color: #00B7FF;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.cinema-title {
+  color: white;
+  position: relative;
+  margin-left: 55%;
+  margin-top: 150px;
+  font-weight: bold;
+}
+
+.home-pic {
+  position: absolute;
+  width: 90%;
+}
+
+.movie-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #00B7FF; */
+  width: fit-content;
+  margin: 5%;
+}
+
+.all-movies-wrapper {
+  width: 80%;
+  /* background-color: #00B7FF; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.movie-photo {
+  box-shadow: 3px 3px 45px -15px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 0%;
+}
+
+.stars li {
+  list-style-type: none;
+}

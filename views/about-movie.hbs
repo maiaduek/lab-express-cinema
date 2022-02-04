@@ -1,0 +1,29 @@
+<h1>GOOD CHOICE! </h1>
+
+<div class="all-movie-info">
+  <img src={{image}} />
+  <div class="wording">
+    <h2>{{title}}</h2>
+    <p>Directed by: {{director}}</p>
+    <ul class="stars">
+      Starring: {{#each this.stars}}
+      <li>
+        {{this}}
+      </li>
+      {{/each}}
+    </ul>
+    <p>{{description}}</p>
+    <ul class="showtimes">
+      Showtimes: {{#each this.showtimes}}
+      <p class="time">
+        {{this}} |
+      </p>
+      {{/each}}
+    </ul>
+    <a href="/movies">Go Back</a>
+  </div>
+</div>
+
+{{!-- <form action="/movies">
+    <input type="submit" value="GO BACK" />
+</form> --}}
